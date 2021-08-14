@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+body::before{
+    display: block;
+    content: "";
+    height: 55px;;
+}
+
+@media(min-width: 768px){
+    .news-bar{
+        width: 50%;
+    }
+}
+
+#bootstrap-logo-color{
+    color: blueviolet;
+}
